@@ -10,6 +10,7 @@ namespace ConcurrencyNotes.Infrastructure
     {
         LockConstruction,
         MonitorUsage,
-        SemaphoreOverview
+        SemaphoreOverview,
+        ReaderWriterLockOverview
     }
 }

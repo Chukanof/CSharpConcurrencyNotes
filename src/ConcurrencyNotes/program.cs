@@ -10,7 +10,7 @@ namespace ConcurrencyNotes
     {
         public static void Main()
         {
-            var selectedExample = Example.SemaphoreOverview.GetExampleType();
+            var selectedExample = Example.ReaderWriterLockOverview.GetExampleType();
             
             ExampleHelper.Run(selectedExample);
             

@@ -9,11 +9,11 @@ namespace ConcurrencyNotes.Infrastructure
 {
     public static class ExampleHelper
     {
-        public static  async void Run<T>(T exampleType) where T : Type
+        public static async void Run<T>(T exampleType) where T : Type
         {
             try
             {
-               await Execute(exampleType);
+                await Execute(exampleType);
             }
             catch (Exception ex)
             {

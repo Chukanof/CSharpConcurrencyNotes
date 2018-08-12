@@ -46,8 +46,9 @@
     <Compile Include="Base\ISingleThreadExample.cs" />
     <Compile Include="Base\ISyncNonSyncThreadExample.cs" />
     <Compile Include="Base\IThreadExample.cs" />
+    <Compile Include="Examples\SemaphoreOverviewExample.cs" />
     <Compile Include="Infrastructure\ExampleHelper.cs" />
-    <Compile Include="Infrastructure\ExamplesEnum.cs" />
+    <Compile Include="Infrastructure\ExampleEnum.cs" />
     <Compile Include="Infrastructure\ExamplesExtension.cs" />
     <Compile Include="Examples\LockConstructionExample.cs" />
     <Compile Include="Examples\MonitorUsageExample.cs" />

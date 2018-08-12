@@ -9,7 +9,7 @@ namespace ConcurrencyNotes.Infrastructure
 {
     public static class ExamplesExtension
     {
-        public static Type GetExampleType(this Examples example, string suffix = "Example")
+        public static Type GetExampleType(this Example example, string suffix = "Example")
         {
             var typeName = example.ToString() + suffix;
 

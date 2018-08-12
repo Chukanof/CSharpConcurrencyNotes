@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConcurrencyNotes.Infrastructure
 {
-    public enum Examples
+    public enum Example
     {
         LockConstruction,
-        MonitorUsage
+        MonitorUsage,
+        SemaphoreOverview
     }
 }

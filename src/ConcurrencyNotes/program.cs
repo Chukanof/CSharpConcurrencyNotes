@@ -10,8 +10,8 @@ namespace ConcurrencyNotes
     {
         public static void Main()
         {
-            var selectedExample = Examples.MonitorUsage.GetExampleType();
-
+            var selectedExample = Example.SemaphoreOverview.GetExampleType();
+            
             ExampleHelper.Run(selectedExample);
             
             Console.Read();

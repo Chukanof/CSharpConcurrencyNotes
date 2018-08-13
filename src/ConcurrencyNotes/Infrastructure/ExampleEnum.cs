@@ -13,6 +13,7 @@ namespace ConcurrencyNotes.Infrastructure
         SemaphoreOverview,
         ReaderWriterLockOverview,
         AutoResetEventOverview,
-        BidirectionalSignalling
+        BidirectionalSignalling,
+        BarrierOverview
     }
 }

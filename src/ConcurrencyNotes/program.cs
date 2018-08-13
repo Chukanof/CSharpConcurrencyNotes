@@ -10,7 +10,7 @@ namespace ConcurrencyNotes
     {
         public static void Main()
         {
-            var selectedExample = Example.BidirectionalSignalling.GetExampleType();
+            var selectedExample = Example.BarrierOverview.GetExampleType();
             
             ExampleHelper.Run(selectedExample);
             

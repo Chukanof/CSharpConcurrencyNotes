@@ -47,6 +47,7 @@
     <Compile Include="Base\ISyncNonSyncThreadExample.cs" />
     <Compile Include="Base\IThreadExample.cs" />
     <Compile Include="Examples\AutoResetEventOverviewExample.cs" />
+    <Compile Include="Examples\BidirectionalSignallingExample.cs" />
     <Compile Include="Examples\ReaderWriterLockOverviewExample.cs" />
     <Compile Include="Examples\SemaphoreOverviewExample.cs" />
     <Compile Include="Infrastructure\ExampleHelper.cs" />

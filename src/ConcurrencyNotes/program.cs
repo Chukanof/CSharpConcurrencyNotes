@@ -10,7 +10,7 @@ namespace ConcurrencyNotes
     {
         public static void Main()
         {
-            var selectedExample = Example.AutoResetEventOverview.GetExampleType();
+            var selectedExample = Example.BidirectionalSignalling.GetExampleType();
             
             ExampleHelper.Run(selectedExample);
             

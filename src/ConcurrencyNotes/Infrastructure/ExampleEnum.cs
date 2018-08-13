@@ -11,6 +11,7 @@ namespace ConcurrencyNotes.Infrastructure
         LockConstruction,
         MonitorUsage,
         SemaphoreOverview,
-        ReaderWriterLockOverview
+        ReaderWriterLockOverview,
+        AutoResetEventOverview
     }
 }

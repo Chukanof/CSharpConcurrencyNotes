@@ -10,7 +10,7 @@ namespace ConcurrencyNotes
     {
         public static void Main()
         {
-            var selectedExample = Example.ReaderWriterLockOverview.GetExampleType();
+            var selectedExample = Example.AutoResetEventOverview.GetExampleType();
             
             ExampleHelper.Run(selectedExample);
             

@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace ConcurrencyNotes
 {
-    internal class MonitorUsageExample : ISyncNonSyncThreadExample
+    internal class MonitorUsageExample : ISyncAsyncThreadExample
     {
         private int n = 500;
 
-        public async Task StartNonSynced()
+        public async Task StartAsync()
         {
             var task = Task.Run(() => write("x"));
 
@@ -35,7 +35,7 @@ namespace ConcurrencyNotes
             }
         }
 
-        public async Task StartSynced()
+        public async Task StartSync()
         {
             object syncRoot = new object();
 

@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\ISingleThreadExample.cs" />
-    <Compile Include="Base\ISyncNonSyncThreadExample.cs" />
+    <Compile Include="Base\ISyncAsyncThreadExample.cs" />
     <Compile Include="Base\IThreadExample.cs" />
     <Compile Include="Examples\AutoResetEventOverviewExample.cs" />
     <Compile Include="Examples\BarrierOverviewExample.cs" />

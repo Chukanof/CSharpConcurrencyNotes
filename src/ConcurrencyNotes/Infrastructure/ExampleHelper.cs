@@ -37,12 +37,12 @@ namespace ConcurrencyNotes.Infrastructure
             if (instance is ISingleThreadExample)
                 ((ISingleThreadExample)instance).Execute();
 
-            else if (instance is ISyncNonSyncThreadExample)
+            else if (instance is ISyncAsyncThreadExample)
             {
-                ISyncNonSyncThreadExample example = instance as ISyncNonSyncThreadExample;
+                ISyncAsyncThreadExample example = instance as ISyncAsyncThreadExample;
 
-                await example.StartNonSynced();
-                await example.StartSynced();
+                await example.StartAsync();
+                await example.StartSync();
             }
         }
     }

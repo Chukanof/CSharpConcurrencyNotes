@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConcurrencyNotes.Base
 {
-    interface ISyncNonSyncThreadExample : IThreadExample
+    interface ISyncAsyncThreadExample : IThreadExample
     {
-        Task StartNonSynced();
-        Task StartSynced();
+        Task StartAsync();
+        Task StartSync();
     }
 }

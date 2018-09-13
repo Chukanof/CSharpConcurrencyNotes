@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Base\ISingleThreadExample.cs" />
-    <Compile Include="Base\ISyncAsyncThreadExample.cs" />
-    <Compile Include="Base\IThreadExample.cs" />
+    <Compile Include="Base\ISingleExample.cs" />
+    <Compile Include="Base\ISyncAsyncExample.cs" />
+    <Compile Include="Base\IExample.cs" />
     <Compile Include="Examples\AutoResetEventOverviewExample.cs" />
     <Compile Include="Examples\BarrierOverviewExample.cs" />
     <Compile Include="Examples\BidirectionalSignallingExample.cs" />

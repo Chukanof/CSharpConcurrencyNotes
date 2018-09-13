@@ -16,6 +16,7 @@ namespace ConcurrencyNotes.Infrastructure
         BidirectionalSignalling,
         BarrierOverview,
         _01_AsyncCatchExceptions,
-        _02_AsyncCatchExceptions
+        _02_AsyncCatchExceptions,
+        _03_AsyncCatchExceptions
     }
 }

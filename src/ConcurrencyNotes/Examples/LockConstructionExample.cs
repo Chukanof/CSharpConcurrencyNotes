@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ConcurrencyNotes
 {
-    internal class LockConstructionExample : ISyncAsyncThreadExample
+    internal class LockConstructionExample : ISyncAsyncExample
     {
         private int n = 500;
 

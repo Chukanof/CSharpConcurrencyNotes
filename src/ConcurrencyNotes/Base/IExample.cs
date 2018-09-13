@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConcurrencyNotes.Base
 {
-    interface ISingleThreadExample : IThreadExample
+    interface IExample 
     {
-        void Execute();
     }
 }

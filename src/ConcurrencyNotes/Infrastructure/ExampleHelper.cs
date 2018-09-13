@@ -27,19 +27,19 @@ namespace ConcurrencyNotes.Infrastructure
                 throw new ArgumentNullException(nameof(exampleType), "Argument can't be null");
 
 
-            var instance = Activator.CreateInstance(exampleType) as IThreadExample;
+            var instance = Activator.CreateInstance(exampleType) as IExample;
 
 
             if (instance == null)
                 throw new InvalidCastException("Example should be inherited from IThreadExample");
 
 
-            if (instance is ISingleThreadExample)
-                ((ISingleThreadExample)instance).Execute();
+            if (instance is ISingleExample)
+                ((ISingleExample)instance).Execute();
 
-            else if (instance is ISyncAsyncThreadExample)
+            else if (instance is ISyncAsyncExample)
             {
-                ISyncAsyncThreadExample example = instance as ISyncAsyncThreadExample;
+                ISyncAsyncExample example = instance as ISyncAsyncExample;
 
                 await example.StartAsync();
                 await example.StartSync();

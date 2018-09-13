@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ConcurrencyNotes
 {
-    internal class MonitorUsageExample : ISyncAsyncThreadExample
+    internal class MonitorUsageExample : ISyncAsyncExample
     {
         private int n = 500;
 

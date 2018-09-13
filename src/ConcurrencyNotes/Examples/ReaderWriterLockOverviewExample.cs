@@ -8,7 +8,7 @@ using ConcurrencyNotes.Base;
 
 namespace ConcurrencyNotes.Examples
 {
-    class ReaderWriterLockOverviewExample : ISingleThreadExample
+    class ReaderWriterLockOverviewExample : ISingleExample
     {
         readonly ReaderWriterLockSlim _rw = new ReaderWriterLockSlim();
         readonly List<int> _items = new List<int>();

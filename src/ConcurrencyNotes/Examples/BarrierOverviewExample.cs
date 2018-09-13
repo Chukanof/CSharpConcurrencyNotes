@@ -8,7 +8,7 @@ using ConcurrencyNotes.Base;
 
 namespace ConcurrencyNotes.Examples
 {
-    class BarrierOverviewExample : ISingleThreadExample
+    class BarrierOverviewExample : ISingleExample
     {
         readonly Barrier _barrier = new Barrier(3, brr => Console.WriteLine());
 

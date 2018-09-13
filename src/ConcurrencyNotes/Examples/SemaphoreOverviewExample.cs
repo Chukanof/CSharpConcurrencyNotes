@@ -8,7 +8,7 @@ using ConcurrencyNotes.Base;
 
 namespace ConcurrencyNotes
 {
-    class SemaphoreOverviewExample : ISingleThreadExample
+    class SemaphoreOverviewExample : ISingleExample
     {
         readonly SemaphoreSlim semaphore = new SemaphoreSlim(3);
 

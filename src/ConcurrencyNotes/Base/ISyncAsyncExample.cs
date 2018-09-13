@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConcurrencyNotes.Base
 {
-    interface ISyncAsyncThreadExample : IThreadExample
+    interface ISyncAsyncExample : IExample
     {
         Task StartAsync();
         Task StartSync();

@@ -8,7 +8,7 @@ using ConcurrencyNotes.Base;
 
 namespace ConcurrencyNotes.Examples
 {
-    class BidirectionalSignallingExample : ISingleThreadExample
+    class BidirectionalSignallingExample : ISingleExample
     {
         readonly AutoResetEvent _ready = new AutoResetEvent(false);
         readonly AutoResetEvent _go = new AutoResetEvent(false);

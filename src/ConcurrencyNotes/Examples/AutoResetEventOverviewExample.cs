@@ -8,7 +8,7 @@ using ConcurrencyNotes.Base;
 
 namespace ConcurrencyNotes.Examples
 {
-    class AutoResetEventOverviewExample : ISingleThreadExample
+    class AutoResetEventOverviewExample : ISingleExample
     {
         readonly AutoResetEvent auto = new AutoResetEvent(false);
 

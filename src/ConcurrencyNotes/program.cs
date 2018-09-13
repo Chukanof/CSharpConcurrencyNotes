@@ -10,7 +10,7 @@ namespace ConcurrencyNotes
     {
         public static void Main()
         {
-            var selectedExample = Example.BarrierOverview.GetExampleType();
+            var selectedExample = Example.AsyncCatchExceptions.GetExampleType();
             
             ExampleHelper.Run(selectedExample);
             

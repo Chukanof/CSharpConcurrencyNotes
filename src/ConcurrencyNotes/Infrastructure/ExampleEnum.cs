@@ -14,6 +14,7 @@ namespace ConcurrencyNotes.Infrastructure
         ReaderWriterLockOverview,
         AutoResetEventOverview,
         BidirectionalSignalling,
-        BarrierOverview
+        BarrierOverview,
+        _01_AsyncCatchExceptions
     }
 }

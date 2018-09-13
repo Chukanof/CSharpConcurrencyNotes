@@ -15,6 +15,7 @@ namespace ConcurrencyNotes.Infrastructure
         AutoResetEventOverview,
         BidirectionalSignalling,
         BarrierOverview,
-        _01_AsyncCatchExceptions
+        _01_AsyncCatchExceptions,
+        _02_AsyncCatchExceptions
     }
 }

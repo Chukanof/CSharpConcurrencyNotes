@@ -52,6 +52,7 @@
     <Compile Include="Examples\Exceptions\_01_AsyncCatchExceptionsExample.cs" />
     <Compile Include="Examples\Exceptions\_02_AsyncCatchExceptionsExample.cs" />
     <Compile Include="Examples\Exceptions\_03_AsyncCatchExceptionsExample.cs" />
+    <Compile Include="Examples\Exceptions\_04_AsyncCatchExceptionsExample.cs" />
     <Compile Include="Examples\ReaderWriterLockOverviewExample.cs" />
     <Compile Include="Examples\SemaphoreOverviewExample.cs" />
     <Compile Include="Infrastructure\ExampleHelper.cs" />

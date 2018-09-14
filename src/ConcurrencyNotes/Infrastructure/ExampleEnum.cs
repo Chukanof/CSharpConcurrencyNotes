@@ -17,6 +17,7 @@ namespace ConcurrencyNotes.Infrastructure
         BarrierOverview,
         _01_AsyncCatchExceptions,
         _02_AsyncCatchExceptions,
-        _03_AsyncCatchExceptions
+        _03_AsyncCatchExceptions,
+        _04_AsyncCatchExceptions
     }
 }

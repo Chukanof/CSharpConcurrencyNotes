@@ -10,7 +10,7 @@ namespace ConcurrencyNotes
     {
         public static void Main()
         {
-            var selectedExample = Example._03_AsyncCatchExceptions.GetExampleType();
+            var selectedExample = Example._04_AsyncCatchExceptions.GetExampleType();
             
             ExampleHelper.Run(selectedExample);
             
